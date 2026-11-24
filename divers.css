@@ -1,0 +1,20 @@
+/* Hai thợ lặn bơi trong bể cá */
+.diver_red,
+.diver_blue {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.diver_red {
+  background-image: url('diver_red.png');
+}
+
+.diver_blue {
+  background-image: url('diver_blue.png');
+}
